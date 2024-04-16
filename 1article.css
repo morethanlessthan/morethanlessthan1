@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://biologydictionary.net/wp-content/uploads/2021/02/dinoflagellate.jpg');
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 50px;
+  }
+  
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .article-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .article-text {
+    flex-basis: 60%;
+  }
+  
+  .article-images img:nth-child(2) {
+    width: 20; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 1rem;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
